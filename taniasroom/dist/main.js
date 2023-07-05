@@ -17,7 +17,7 @@ init();
 let loadedModel;
 
 const glftLoader = new GLTFLoader();
-glftLoader.load('./assets/lighthouse.glb', (gltfScene) => {
+glftLoader.load('./assets/addieroom_v2.glb', (gltfScene) => {
     loadedModel = gltfScene;
 
     gltfScene.scene.traverse(function (child) {
